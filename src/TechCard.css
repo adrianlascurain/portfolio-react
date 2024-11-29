@@ -1,0 +1,71 @@
+.tech-card{
+    background-color: #484848;
+    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid transparent;
+}
+
+.tech-card figure{
+    width: 70px;
+    height: 70px;
+    margin: 0;
+}
+
+.tech-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.tech-card:hover{
+    border-color: white;
+}
+
+.blur-container{
+    width: 80px;
+    height: 80px;
+    border: none;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.tech-name{
+    opacity: 1;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-name h3{
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: "Roboto condensed",sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    word-break: break-all;
+    -webkit-text-stroke: 3px black;
+    paint-order: stroke fill;
+}
