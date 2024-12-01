@@ -1,36 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 // import TechCard from './TechCard'
 import './App.css'
 import './TechCard.css'
+import './ProjectCard.css'
+import './ProjectCard'
+import ProjectCard from './ProjectCard'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    <div className="cards-container">
+      <ProjectCard title='hola' description='Breve descripción del proyecto, cómo se hizo y para qué se hizo, que retos implicó desarrollarlo, con que tecnologías se desarrollo, mostrar detalles superficiales.' image='https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Capivara%28Hydrochoerus_hydrochaeris%29.jpg/800px-Capivara%28Hydrochoerus_hydrochaeris%29.jpg' gif='https://preview.redd.it/07ugp5ljimc91.gif?width=730&auto=webp&s=081800fe7503f81497bc4afa324d99cf297c5553' repositoryURL='https://github.com/' liveURL='https://bienestar.edomex.gob.mx/mujeres-bienestar'/>
+
+      <ProjectCard title='hola' description='Breve descripción del proyecto, cómo se hizo y para qué se hizo, que retos implicó desarrollarlo, con que tecnologías se desarrollo, mostrar detalles superficiales.' image='https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Capivara%28Hydrochoerus_hydrochaeris%29.jpg/800px-Capivara%28Hydrochoerus_hydrochaeris%29.jpg' gif='https://preview.redd.it/07ugp5ljimc91.gif?width=730&auto=webp&s=081800fe7503f81497bc4afa324d99cf297c5553' repositoryURL='https://github.com/' liveURL=''/>
+
       
+    </div>
+
     </>
   )
 }

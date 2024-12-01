@@ -1,0 +1,128 @@
+.project-card{
+    background-color: var(--ecard-color);
+    border-radius: 25px;
+    border: 2px solid var(--card-border-color);
+    overflow: hidden;
+    width: 380px;
+    /* height: 580px; */
+    margin: 0;
+    position: relative;
+
+}
+
+
+.project-img-frame{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin: 0;
+}
+
+.project-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.h3-project-title{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: var(--orange);
+    font-family: var(--font);
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.title-separator{
+    background-color: white;
+    color: white;
+    width: 90%;
+    border-width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    opacity: 1;
+}
+
+.project-description-text{
+    color: white;
+    font-family: var(--font);
+    font-size: 20px;
+    font-weight: 400;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    text-align: start;
+}
+
+.h4-project-tech{
+    font-family: var(--font);
+    font-size: 16px;
+    color: white;
+    -webkit-text-stroke: 3px black;
+    paint-order: stroke fill;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+.techs-container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    gap: 4px;
+    flex-wrap: wrap;
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.tech-img-frame{
+    width: 35px;
+    height: 35px;
+    margin: 0;
+}
+
+.tech-img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.project-card-blur-container{
+    position: absolute;
+    background-color: black;
+    left: 0;
+    right: 0;
+    top: 250px;
+    bottom: 0;
+    opacity: 0.75;
+}
+
+.anchor-container{
+    position: absolute;
+    top: 60%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+}
+
+.anchor-frame{
+    width: 80px;
+    height: 80px;
+    margin: 0;
+}
+
+.anchor-frame img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
