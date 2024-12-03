@@ -61,6 +61,9 @@ function ProjectCard({title,description,image,gif,repositoryURL,liveURL}: {title
                         <figure className="tech-img-frame">
                             <img className="tech-img" src={reactLogo} alt=""/>
                         </figure>
+                        <figure className="tech-img-frame">
+                            <img className="tech-img" src={reactLogo} alt=""/>
+                        </figure>
 
                     </div>
                 </div>
@@ -68,8 +71,24 @@ function ProjectCard({title,description,image,gif,repositoryURL,liveURL}: {title
                 <div className="back-end-techs">
                     <h4 className="h4-project-tech">Backend</h4>
                     <div className="techs-container">
+                    <figure className="tech-img-frame">
+                            <img className="tech-img" src={reactLogo} alt=""/>
+                        </figure>
+
                         <figure className="tech-img-frame">
-                            <img className="tech-img" src="./assets/html-5-svgrepo-com.svg" alt=""/>
+                            <img className="tech-img" src={reactLogo} alt=""/>
+                        </figure>
+                        <figure className="tech-img-frame">
+                            <img className="tech-img" src={reactLogo} alt=""/>
+                        </figure>
+                        <figure className="tech-img-frame">
+                            <img className="tech-img" src={reactLogo} alt=""/>
+                        </figure>
+                        <figure className="tech-img-frame">
+                            <img className="tech-img" src={reactLogo} alt=""/>
+                        </figure>
+                        <figure className="tech-img-frame">
+                            <img className="tech-img" src={reactLogo} alt=""/>
                         </figure>
 
                     </div>
@@ -81,7 +100,7 @@ function ProjectCard({title,description,image,gif,repositoryURL,liveURL}: {title
                 <div className="anchor-container">
                     <a className="live-anchor" href={liveURL} target='_blank' style={{display: liveDisplay}}>
                         <figure className="anchor-frame">
-                            <img src={wwwLogo} alt="ir a live" />
+                            <img src={wwwLogo} alt="Ir a live" />
                         </figure>
                     </a>
 
